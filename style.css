@@ -1,0 +1,98 @@
+/*
+
+http://www.redips.net/
+
+*/
+
+body {
+	font-family: arial;
+	margin: 0px; /* for IE6 / IE7 */
+	min-width: 90vw !important;
+	width: 90vw !important;
+}
+
+.redips-mark {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+/* drag objects (DIV inside table cells) */
+.redips-drag {
+	cursor: move;
+	margin: auto 5px;
+	background-color: rgb(18, 160, 18);
+	color: white;
+	text-align: center;
+	font-size: 1rem; /* needed for cloned object */
+	font-weight: bold;
+	width: auto;
+	min-width: 100px;
+	height: 35px;
+	line-height: 29px;
+	/* round corners */
+	border-radius: 4px; /* Opera, Chrome */
+	-moz-border-radius: 4px; /* FF */
+}
+
+/* make drag container visible */
+#redips-drag {
+	/* border: 2px dashed LightBlue; */
+	display: table;
+	margin: auto;
+	padding: 3px;
+}
+
+/* tables */
+div#redips-drag table {
+	background-color: #F2F5F7;
+	border-collapse: collapse;
+	margin: 20px;
+}
+
+/* table cells */
+div#redips-drag td {
+	border: 1px #AED0EA solid;
+	height: 50px;
+	text-align: center;
+	font-size: 10pt;
+	padding: 2px;
+	min-width: 100px;
+}
+
+/* green objects */
+.green {
+	border: 2px solid darkgreen;
+}
+
+/* blue objects */
+/* .blue {
+	border: 2px solid #396F98;
+} */
+
+/* orange objects */
+/* .orange {
+	border: 2px solid #A65A3C;
+} */
+
+/* trash cell */
+.redips-trash {
+	color: white;
+	font-weight: bold;
+	background-color: rgb(238, 38, 38);
+}
+
+/* .hidden {
+	 display: none;
+}
+
+.shown {
+	display: block;
+} */
+/* instructions at the bottom */
+/* .instructions {
+	width: 420px;
+	margin: 15px auto 0px auto;
+	color: #555;
+	font-size: 11px;
+	text-align: justify;
+} */
